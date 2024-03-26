@@ -1,5 +1,5 @@
 
-// For each of the functions lised below, indicate the O notation as wll as your reasoning behind the answer.
+// For each of the functions lised below, indicate the O notation as well as your reasoning behind the answer.
 
 // 1. Even or odd
 
@@ -11,6 +11,8 @@ function isEven(value){
       return false;
   }
   
+  // Time - O(1)
+  // Space - O(1)
 
   
 // 2. Are You Here?
@@ -25,6 +27,9 @@ function isEven(value){
       }
       return false;
   }
+
+  // Time - O(n^2)
+  // Space - O(n)
   
   
 // 3. Doubler
@@ -37,6 +42,9 @@ function isEven(value){
   }
   
 
+  // Time - O(n)
+  // Space - O(n)
+
   
 // 4. New Search
   
@@ -48,6 +56,8 @@ function isEven(value){
       }
   }
   
+  // Time - O(n)
+  // Space - O(n)
   
 // 5. Creating Pairs
   
@@ -59,6 +69,8 @@ function isEven(value){
       }
   }
   
+  // Time - O(n^2)
+  // Space - O(n)
 
   
 // 6. Computing Fibonacci Numbers
@@ -79,6 +91,8 @@ function isEven(value){
     return result;
   }
   
+  // Time - O(n)
+  // Space - O(n)
 
   
 // 7. Efficient Search
@@ -106,6 +120,8 @@ function isEven(value){
       return -1;
   }
   
+  // Time - O(n)
+  // Space - O(1)
 
 // 8. Random element
   
@@ -113,6 +129,8 @@ function isEven(value){
       return arr[Math.floor(Math.random() * arr.length)];
   }
   
+  // Time - O(n)
+  // Space - O(1)
   
 // 9. Is It Prime?
   
@@ -126,7 +144,8 @@ function isEven(value){
       return true;
   }
   
-  
+  // Time - O(n)
+  // Space - O(1)
   
 // 10. Factorial of a number w/ recursion
   
@@ -139,3 +158,6 @@ function isEven(value){
       }
   }
   
+  // Time - O(n)
+  // Space - O(1)
+  // Tardis - O(Wh)
